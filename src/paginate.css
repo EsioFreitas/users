@@ -1,0 +1,45 @@
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  display: inline-block;
+  width: 4rem;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 20px;
+}
+
+ul li.active a {
+  color: white;
+}
+ul li.active {
+  background-color: #337ab7;
+}
+
+ul li a:hover,
+ul li a.active {
+  color: blue;
+}
+
+.page-selection {
+  width: 48px;
+  height: 30px;
+  color: #337ab7;
+}
+
+-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
